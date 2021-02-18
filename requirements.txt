@@ -1,0 +1,2 @@
+pyyaml==5.4.1
+python-miio==0.5.4

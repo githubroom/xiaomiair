@@ -1,0 +1,8 @@
+# create docker image example
+docker image build -t xap:0.5 .
+
+# create docker container example
+docker container run --detach --restart on-failure --name xap-salon --env-file=./38ee.config --volume /etc/localtime:/etc/localtime xap:0.5
+
+# check logs example
+docker container logs xap-salon --tail 10 --follow

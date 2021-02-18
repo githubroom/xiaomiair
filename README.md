@@ -69,3 +69,4 @@ User settings are applied via environment variables:
   BEGIN_DAY_HOUR=<int from 0 to 23>
   
   BEGIN_NIGHT_HOUR=<int from 0 to 23>
+  

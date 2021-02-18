@@ -19,28 +19,53 @@ This project aims to create python code that can be turned into docker image and
                                                                    set fan mode on selected level (0) when night
 
 User settings are applied via environment variables:
+
   DEVICE_IP=<IPv4 only>
+  
   TOKEN=<token>
+  
   MODEL=<2 or 3>
+  
   SCHEDULER_INTERVAL=<value in seconds>
+  
   AQI_LEVEL_DISABLE=<must be lower than any other AQI_LEVEL_X>
+  
   AQI_LEVEL_1=<int from 10 to 160>
+  
   FAN_LEVEL_1=<int from 1 to 12>
+  
   AQI_LEVEL_2=<int from 10 to 160>
+  
   FAN_LEVEL_2=<int from 1 to 12>
+  
   AQI_LEVEL_3=<int from 10 to 160>
+  
   FAN_LEVEL_3=<int from 1 to 12>
+  
   AQI_LEVEL_4=<int from 10 to 160>
+  
   FAN_LEVEL_4=<int from 1 to 12>
+  
   AQI_LEVEL_5=<int from 10 to 160>
+  
   FAN_LEVEL_5=<int from 1 to 12>
+  
   AQI_LEVEL_6=<int from 10 to 160>
+  
   FAN_LEVEL_6=<int from 1 to 12>
+  
   FAN_LEVEL_NIGHT=<int from 1 to 12>
+  
   REFRESH_AIR_INTERVAL=<value in seconds>
+  
   REFRESH_AIR_DURATION=<value in seconds>
+  
   REFRESH_AIR_FAN_LEVEL_DAY=<int from 1 to 12>
+  
   REFRESH_AIR_FAN_LEVEL_NIGHT=<int from 1 to 12>
+  
   REFRESH_AIR_ON_NIGHT=<True or False>
+  
   BEGIN_DAY_HOUR=<int from 0 to 23>
+  
   BEGIN_NIGHT_HOUR=<int from 0 to 23>
